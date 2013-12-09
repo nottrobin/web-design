@@ -1,0 +1,69 @@
+<style>
+    header {
+        padding: 2em;
+        position: relative;
+        max-width: 30em; /* tweak */
+        background-color: blue; /* tweak */
+        margin: 0 auto;
+    }
+    header:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: red;
+        margin-left: -10000px; /* tweak */
+        width: 20000px; /* tweak */
+        z-index: -1;
+    }
+    article {
+        display: block;
+        max-width: 40em;
+        margin: 2em auto;
+        background-color: #eee;
+    }
+    section {
+        max-width: 60em;
+        margin: 2em auto;
+        display: block;
+    }
+    section article {
+        width: 28em;
+        margin: 1em 0;
+        float: left;
+    }
+    section aside {
+        margin-left: 2em;
+        float: left;
+        width: 10em;
+        background-color: #ccc;
+        clear: right;
+    }
+</style>
+
+<header>
+Header
+</header>
+
+<section>
+    <article>
+        lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet 
+    </article>
+
+    <aside>
+        An aside
+    </aside>
+</section>
+
+<article>
+lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet 
+</article>
+
+<aside>
+An aside
+</aside>
+
+<footer>
+Footer
+</footer>
